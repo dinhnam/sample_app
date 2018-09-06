@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield :title %> | <%= t "static_pages.sample" %></title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div>
+      <%= link_to "home", 'home' %>
+      <%= link_to "about", 'about' %>
+      <%= link_to "contact", 'contact' %>
+      <%= link_to "help", 'help' %>
+
+    </div>
+    <%= yield %>
+    <div>
+      <%= link_to "English", locale:"en" %>
+      <%= link_to "Vietnamese", locale:"vi" %>
+    </div>
+  </body>
+</html>
