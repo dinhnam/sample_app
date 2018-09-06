@@ -1,0 +1,36 @@
+vi:
+
+  static_pages:
+    sample: "ung dung mau Ruby on Rails Tutorial"
+    home:
+      content_html: "
+      day la trang chu cho
+      <a href=\"http://www.railstutorial.org/\">huong dan Ruby on Rails</a>
+      ung dung mau.
+      "
+
+      title: 'Trang chu'
+    contact:
+      content_html: "
+      lien he toi ruby on rails ung dung mau duoi day
+      <a href=\"http://www.railstutorial.org/contact\">contact page</a>"
+      title: "Lien he"
+    about:
+      content_html: " <a href=\"http://www.railstutorial.org/\"><em>Ruby on Rails
+      Tutorial</em></a> la
+      <a href=\"http://www.railstutorial.org/book\">sach </a> va
+      <a href=\"http://screencasts.railstutorial.org/\"> vao day </a>
+      de hoc phat trien web tai
+      <a href=\"http://rubyonrails.org/\">Ruby on Rails</a>.
+      day la ung dung mau cho ruby on rails."
+      title: "Ve chung toi"
+    help:
+      content_html: "
+     lay su tro giup ve ruby on rails tai day
+      <a href=\"http://www.railstutorial.org/help\">rails trang tro giup</a>.
+      de co huong dan ve cac  ung dung mau
+      <a href=\"http://www.railstutorial.org/book\"><em>Ruby on Rails
+      huong dan</em> sach</a>.
+      "
+      title: "Tro giup"
+
