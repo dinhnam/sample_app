@@ -1,5 +1,8 @@
 vi:
-
+  users:
+    login: "dang nhap"
+    signup_title: "dang ki ngay"
+    signup_content: "o day se tao mot tai khoan moi"
   static_pages:
     sample: "ung dung mau Ruby on Rails Tutorial"
     home:
@@ -8,7 +11,7 @@ vi:
       <a href=\"http://www.railstutorial.org/\">huong dan Ruby on Rails</a>
       ung dung mau.
       "
-
+      signup_btn: "dang ki ngay"
       title: 'Trang chu'
     contact:
       content_html: "
