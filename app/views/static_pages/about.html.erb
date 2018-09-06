@@ -1,5 +1,4 @@
 <% provide :title, t(".title") %>
-<h1><%= t ".title" %> |
-    <%=t "static_pages.sample" %></h1>
+<h1><%= full_title(yield(:title),t("static_pages.sample")) %></h1>
 <%= t ".content_html" %>
 
