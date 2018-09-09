@@ -35,6 +35,11 @@ en:
     new:
     signup_title: "Sign Up"
     signup_content: "This will be a signup page for new users."
+    name: "name"
+    email: "email"
+    password: "password"
+    confirmation: "confirmation"
+    submit: "Create my account"
   static_pages:
     sample: "Ruby on Rails Tutorial Sample App"
     home:
