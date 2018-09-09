@@ -1,6 +1,7 @@
 @import  "bootstrap-sprockets" ;
 @import  "bootstrap" ;
 $gray-medium-light: #eaeaea;
+$gray-light: #555;
 body {
   padding-top: 60px;
 }
@@ -66,9 +67,9 @@ footer {
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
   a {
-    color: #555;
+    color: gray-light;
     &:hover {
-      color: $gray-darker;
+      color: $gray-medium-light;
     }
   }
   small {
@@ -83,3 +84,4 @@ footer {
     }
   }
 }
+
