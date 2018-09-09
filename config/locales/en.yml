@@ -53,6 +53,13 @@ en:
       title: "Update your profile"
       updated: "Update success"
     notice: "Please check your email to activate your account."
+    notice_again: "Account not activated. Check your email for the activation
+      link."
+    login!: "Please Login !"
+    forgot: "forgot password"
+    send: "Get password"
+    notice_email: "Email sent with password reset instructions"
+    notice_email!: "Email address not found"
   static_pages:
     sample: "Ruby on Rails Tutorial Sample App"
     home:
@@ -91,3 +98,11 @@ en:
     remember: "Remember me on this computer"
     danger: "Invalid email/password combination"
     success: "Login success"
+  password_resets:
+    empty!: "can't be empty"
+    success: "Password has been reset."
+  user_mailer:
+    activation: "Account activation"
+    reset: "Reset password"
+    notice: "Account activated!"
+    notice!: "Invalid activation link"

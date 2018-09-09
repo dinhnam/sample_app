@@ -26,7 +26,7 @@ class UsersController < ApplicationController
       flash[:info] = t "users.notice"
       redirect_to root_url
     else
-      render "new"
+      render :new
     end
   end
 
@@ -40,7 +40,7 @@ class UsersController < ApplicationController
       flash[:success] = t "users.edit.updated"
       redirect_to edit_user_url
     else
-      render "edit"
+      render :edit
     end
   end
 
@@ -59,7 +59,7 @@ class UsersController < ApplicationController
   def logged_in_user
     return if logged_in?
     store_location
-    flash[:danger] = "Please log in."
+    flash[:danger] = t "users.login!"
     redirect_to login_url
   end
 
