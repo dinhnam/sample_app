@@ -1,4 +1,4 @@
 validates:
   max_name: 50
   max_email: 255
-  min_passwod: 6
+  min_password: 6
