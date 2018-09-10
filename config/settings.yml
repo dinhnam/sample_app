@@ -2,3 +2,5 @@ validates:
   max_name: 50
   max_email: 255
   min_password: 6
+avatar:
+  size: 80

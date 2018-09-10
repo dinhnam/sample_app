@@ -3,6 +3,11 @@ vi:
     login: "dang nhap"
     signup_title: "dang ki ngay"
     signup_content: "o day se tao mot tai khoan moi"
+    name: "ten tai khoan"
+    email: "dia chi email"
+    password: "mat khau"
+    confirmation: "nhap lai mat khau"
+    submit: "tao tai khoan"
   static_pages:
     sample: "ung dung mau Ruby on Rails Tutorial"
     home:
