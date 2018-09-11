@@ -31,7 +31,12 @@
 
 en:
   users:
-    login: "log in"
+    user: "User"
+    profile: "Profile"
+    setting: "Setting"
+    account: "Account"
+    login: "Log In"
+    logout: "Log out"
     new:
     signup_title: "Sign Up"
     signup_content: "This will be a signup page for new users."
@@ -72,3 +77,6 @@ en:
       Tutorial</em> book</a>.
       "
       title: "Help"
+  sessions:
+    login: "log in"
+    notice: "New user?"
