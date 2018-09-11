@@ -5,8 +5,9 @@ $gray-light: #555;
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
+  box-sizing: border-box;
 }
+
 body {
   padding-top: 60px;
 }
@@ -162,3 +163,20 @@ input {
   }
 }
 
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
