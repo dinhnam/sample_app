@@ -5,8 +5,9 @@ $gray-light: #555;
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
+  box-sizing: border-box;
 }
+
 body {
   padding-top: 60px;
 }
@@ -160,5 +161,13 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
 }
 
