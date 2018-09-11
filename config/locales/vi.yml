@@ -1,44 +1,53 @@
 vi:
   users:
-    login: "dang nhap"
-    signup_title: "dang ki ngay"
-    signup_content: "o day se tao mot tai khoan moi"
-    name: "ten tai khoan"
-    email: "dia chi email"
-    password: "mat khau"
-    confirmation: "nhap lai mat khau"
-    submit: "tao tai khoan"
+    user: "Người dùng"
+    profile: "Hồ sơ"
+    setting: "Cài đặt"
+    account: "Tài khoản"
+    login: "Đăng nhập"
+    logout: "Đăng xuất"
+    signup_title: "Đăng kí ngay"
+    signup_content: "Tạo một tài khoản mới ở đây"
+    name: "tên tài khoản"
+    email: "địa chỉ email"
+    password: "mật khẩu"
+    confirmation: "nhập lại mật khẩu"
+    submit: "tạo tài khoản"
   static_pages:
-    sample: "ung dung mau Ruby on Rails Tutorial"
+    sample: "ứng dụng mẫu  Ruby on Rails"
     home:
       content_html: "
-      day la trang chu cho
-      <a href=\"http://www.railstutorial.org/\">huong dan Ruby on Rails</a>
-      ung dung mau.
+      đây là trang chủ để đọc
+      <a href=\"http://www.railstutorial.org/\">hướng dẫn Ruby on Rails</a>
+      tạo ứng dụng mẫu.
       "
-      signup_btn: "dang ki ngay"
-      title: 'Trang chu'
+      signup_btn: "đăng kí ngay"
+      title: 'Trang chủ'
     contact:
       content_html: "
-      lien he toi ruby on rails ung dung mau duoi day
+      liên hệ ruby on rails hướng dẫn ở đây
       <a href=\"http://www.railstutorial.org/contact\">contact page</a>"
-      title: "Lien he"
+      title: "Liên hệ"
     about:
       content_html: " <a href=\"http://www.railstutorial.org/\"><em>Ruby on Rails
       Tutorial</em></a> la
-      <a href=\"http://www.railstutorial.org/book\">sach </a> va
-      <a href=\"http://screencasts.railstutorial.org/\"> vao day </a>
-      de hoc phat trien web tai
+      <a href=\"http://www.railstutorial.org/book\">sách </a> và
+      <a href=\"http://screencasts.railstutorial.org/\"> vào đây </a>
+      để học phát triển một website
       <a href=\"http://rubyonrails.org/\">Ruby on Rails</a>.
-      day la ung dung mau cho ruby on rails."
-      title: "Ve chung toi"
+      ứng dụng mẫu cho ruby on rails."
+      title: "Về chúng tôi"
     help:
       content_html: "
-     lay su tro giup ve ruby on rails tai day
-      <a href=\"http://www.railstutorial.org/help\">rails trang tro giup</a>.
+      tìm kiếm trợ giúp ở đây
+      <a href=\"http://www.railstutorial.org/help\">rails trang trợ giúp</a>.
       de co huong dan ve cac  ung dung mau
       <a href=\"http://www.railstutorial.org/book\"><em>Ruby on Rails
-      huong dan</em> sach</a>.
+      hướng dẫn</em> sách</a>.
       "
-      title: "Tro giup"
-
+      title: "Trợ giúp"
+  sessions:
+    login: "Đăng nhập"
+    notice: "Người dùng mới?"
+    remember: "Nhớ tôi trên máy tính này"
+    danger: "email hoặc mật khẩu không hợp lệ"
