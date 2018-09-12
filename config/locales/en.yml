@@ -45,6 +45,11 @@ en:
     password: "password"
     confirmation: "confirmation"
     submit: "Create my account"
+    save: "Save changes"
+    all: "All users"
+    delete: "delete"
+    sure: "you sure ?"
+    deleted: "User deleted"
   static_pages:
     sample: "Ruby on Rails Tutorial Sample App"
     home:
@@ -82,3 +87,4 @@ en:
     notice: "New user?"
     remember: "Remember me on this computer"
     danger: "Invalid email/password combination"
+    success: "Login success"
