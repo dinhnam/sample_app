@@ -80,3 +80,5 @@ en:
   sessions:
     login: "log in"
     notice: "New user?"
+    remember: "Remember me on this computer"
+    danger: "Invalid email/password combination"
