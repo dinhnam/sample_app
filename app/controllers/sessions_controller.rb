@@ -1,6 +1,5 @@
 class SessionsController < ApplicationController
   def new; end
-
   def create
     user = User.find_by email: params[:session][:email].downcase
     if user&.authenticate params[:session][:password]
@@ -8,8 +7,7 @@ class SessionsController < ApplicationController
       flash[:success] = t "sessions.success"
       redirect_back_or user
     else
-      # Create an error message.
-      flash[:danger] = "Invalid email/password combination" # Not quite right!
+      flash[:danger] = t "sessions.danger"
       render "new"
     end
   end

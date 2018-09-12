@@ -49,3 +49,5 @@ vi:
   sessions:
     login: "Đăng nhập"
     notice: "Người dùng mới?"
+    remember: "Nhớ tôi trên máy tính này"
+    danger: "email hoặc mật khẩu không hợp lệ"
