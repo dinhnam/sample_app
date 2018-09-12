@@ -18,6 +18,10 @@ vi:
     delete: "xóa"
     sure: "bạn chắc chứ ?"
     deleted: "đã xóa thành công"
+    edit:
+      title: "cập nhật hồ sơ của bạn"
+      updated: "cập nhập thành công"
+    notice: "xin hãy kiểm tra email của bạn để kích hoạt tài khoản"
   static_pages:
     sample: "ứng dụng mẫu  Ruby on Rails"
     home:

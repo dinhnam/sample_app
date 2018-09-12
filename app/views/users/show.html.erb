@@ -4,8 +4,12 @@
     <section class="user_info">
       <h1>
         <%= gravatar_for @user %>
-        <%= @user.name %>
       </h1>
+      <h2>
+      <p>Name: <%= @user.name %></p>
+      <p>Email: <%= @user.email %></p>
+      <p>created at: <%= @user.created_at %></p>
+      <h2>
     </section>
   </aside>
 </div>
