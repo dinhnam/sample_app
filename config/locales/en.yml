@@ -30,10 +30,30 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  users:
+    user: "User"
+    profile: "Profile"
+    setting: "Setting"
+    account: "Account"
+    login: "Log In"
+    logout: "Log out"
+    new:
+    signup_title: "Sign Up"
+    signup_content: "This will be a signup page for new users."
+    name: "name"
+    email: "email"
+    password: "password"
+    confirmation: "confirmation"
+    submit: "Create my account"
+    save: "Save changes"
+    all: "All users"
+    delete: "delete"
+    sure: "you sure ?"
+    deleted: "User deleted"
   static_pages:
     sample: "Ruby on Rails Tutorial Sample App"
     home:
-
+      signup_btn: "Sign up now"
       content_html: "
       This is the home page for the
       <a href=\"http://www.railstutorial.org/\">Ruby on Rails Tutorial</a>
@@ -62,3 +82,10 @@ en:
       Tutorial</em> book</a>.
       "
       title: "Help"
+  sessions:
+    login: "log in"
+    notice: "New user?"
+    remember: "Remember me on this computer"
+    danger: "Invalid email/password combination"
+    success: "Login success"
+
