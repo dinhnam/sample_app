@@ -9,9 +9,7 @@
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended that you check this file into your version control system.
-
-ActiveRecord::Schema.define(version: 2018_09_11_093018) do
-
+ActiveRecord::Schema.define(version: 2018_09_12_024726) do
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
@@ -19,6 +17,7 @@ ActiveRecord::Schema.define(version: 2018_09_11_093018) do
     t.datetime "updated_at", null: false
     t.string "password_digest"
     t.string "remember_digest"
+    t.boolean "admin"
   end
 
 end
