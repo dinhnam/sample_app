@@ -22,6 +22,14 @@ vi:
       title: "cập nhật hồ sơ của bạn"
       updated: "cập nhập thành công"
     notice: "xin hãy kiểm tra email của bạn để kích hoạt tài khoản"
+    notice_again: "tài khoản chưa được kích hoạt, hãy kiểm tra email để kích
+      hoạt"
+    login!: "hãy đăng nhập để tiếp tục"
+    forgot: "quên mật khẩu"
+    send: "lấy lại mật khẩu"
+    notice_email: "email đã được gửi cùng với password và hướng dẫn đặt lại mật
+     khẩu"
+    notice_email!: "không tìm thấy địa chỉa email"
   static_pages:
     sample: "ứng dụng mẫu  Ruby on Rails"
     home:
@@ -61,3 +69,7 @@ vi:
     remember: "Nhớ tôi trên máy tính này"
     danger: "email hoặc mật khẩu không hợp lệ"
     success: "đăng nhập thành công"
+  password_resets:
+    empty!: "không được để trống trường này"
+    success: "mật khẩu đã được cài lại"
+    expired: "đặt lại mật khẩu đã hết hạn"
