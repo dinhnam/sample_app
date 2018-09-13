@@ -13,6 +13,15 @@ vi:
     password: "mật khẩu"
     confirmation: "nhập lại mật khẩu"
     submit: "tạo tài khoản"
+    save: "Lưu thay đổi"
+    all: "Tất cả người dùng"
+    delete: "xóa"
+    sure: "bạn chắc chứ ?"
+    deleted: "đã xóa thành công"
+    edit:
+      title: "cập nhật hồ sơ của bạn"
+      updated: "cập nhập thành công"
+    notice: "xin hãy kiểm tra email của bạn để kích hoạt tài khoản"
   static_pages:
     sample: "ứng dụng mẫu  Ruby on Rails"
     home:
@@ -51,3 +60,4 @@ vi:
     notice: "Người dùng mới?"
     remember: "Nhớ tôi trên máy tính này"
     danger: "email hoặc mật khẩu không hợp lệ"
+    success: "đăng nhập thành công"

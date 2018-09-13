@@ -37,7 +37,6 @@ en:
     account: "Account"
     login: "Log In"
     logout: "Log out"
-    new:
     signup_title: "Sign Up"
     signup_content: "This will be a signup page for new users."
     name: "name"
@@ -45,6 +44,15 @@ en:
     password: "password"
     confirmation: "confirmation"
     submit: "Create my account"
+    save: "Save changes"
+    all: "All users"
+    delete: "delete"
+    sure: "you sure ?"
+    deleted: "User deleted"
+    edit:
+      title: "Update your profile"
+      updated: "Update success"
+    notice: "Please check your email to activate your account."
   static_pages:
     sample: "Ruby on Rails Tutorial Sample App"
     home:
@@ -82,3 +90,4 @@ en:
     notice: "New user?"
     remember: "Remember me on this computer"
     danger: "Invalid email/password combination"
+    success: "Login success"

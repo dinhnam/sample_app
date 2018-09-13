@@ -4,20 +4,21 @@
     <title><%= yield :title %> | <%= t "static_pages.sample" %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= render 'layouts/shim' %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render "layouts/shim" %>
+    <%= javascript_include_tag "application" %>
   </head>
 
   <body>
-    <%= render 'layouts/header' %>
+    <%= render "layouts/header" %>
     <div class="container">
       <% flash.each do |message_type, message| %>
         <div class="alert alert-<%= message_type %>"><%= message %></div>
       <% end %>
       <%= yield %>
     </div>
-    <%= render 'layouts/footer' %>
+    <%= render "layouts/footer" %>
     <%= debug(params) if Rails.env.development? %>
   </body>
 </html>
