@@ -49,6 +49,12 @@ en:
     delete: "delete"
     sure: "you sure ?"
     deleted: "User deleted"
+    info: "view my profile"
+    place: "Compose new micropost..."
+    success: "Micropost created!"
+    destroy: "Micropost deleted"
+    post: "Microposts"
+    upload: "Post"
     edit:
       title: "Update your profile"
       updated: "Update success"
@@ -106,3 +112,4 @@ en:
     reset: "Reset password"
     notice: "Account activated!"
     notice!: "Invalid activation link"
+
