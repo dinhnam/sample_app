@@ -18,6 +18,14 @@ vi:
     delete: "xóa"
     sure: "bạn chắc chứ ?"
     deleted: "đã xóa thành công"
+    info: "xem hồ sơ của tôi"
+    place: "soạn bài viết mới...."
+    success: "đã tạo bài viết!"
+    destroy: "đã xóa bài đăng"
+    destroy!: "xóa thất bại"
+    post: "bài đăng"
+    upload: "đăng bài"
+    size_max!: "ảnh nên nhỏ hơn 5MB"
     edit:
       title: "cập nhật hồ sơ của bạn"
       updated: "cập nhập thành công"
@@ -58,7 +66,7 @@ vi:
       content_html: "
       tìm kiếm trợ giúp ở đây
       <a href=\"http://www.railstutorial.org/help\">rails trang trợ giúp</a>.
-      de co huong dan ve cac  ung dung mau
+      để có trợ giúp tạo một ứng dụng mẫu
       <a href=\"http://www.railstutorial.org/book\"><em>Ruby on Rails
       hướng dẫn</em> sách</a>.
       "

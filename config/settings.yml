@@ -5,5 +5,10 @@ validates:
 
 avatar:
   size: 120
+  microsize: 50
 
 time_out: 2
+
+max_size: 5
+
+max_content: 140
